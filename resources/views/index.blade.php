@@ -141,41 +141,41 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
+        <h2>Service</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row justify-content-center g-5">
             <div class="col-md-5 justify-content-center g-5" data-aos="fade-right" data-aos-delay="100">
-              <x-service title="Custom Web Development" icon2="code-slash" span="learn more" >
+              <x-services title="Custom Web Development" icon2="code-slash" span="learn more" >
                 Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-              </x-service>
+              </x-services>
           </div><!-- End Service Item -->
             <div class="col-md-5 justify-content-center g-5" data-aos="fade-right" data-aos-delay="100">
-              <x-service title="Mobile App Solusion" icon2="code-slash" span="learn more" >
+              <x-services title="Mobile App Solusion" icon2="code-slash" span="learn more" >
                 Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-              </x-service>
+              </x-services>
           </div><!-- End Service Item -->
             <div class="col-md-5 justify-content-center g-5" data-aos="fade-right" data-aos-delay="100">
-              <x-service title="UI/UX Design" icon2="palette2" span="learn more" >
+              <x-services title="UI/UX Design" icon2="palette2" span="learn more" >
                 Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-              </x-service>
+              </x-services>
           </div><!-- End Service Item -->
             <div class="col-md-5 justify-content-center g-5" data-aos="fade-right" data-aos-delay="100">
-              <x-service title="Digital Marketing" icon2="bar-chart-line" span="learn more" >
+              <x-services title="Digital Marketing" icon2="bar-chart-line" span="learn more" >
                 Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-              </x-service>
+              </x-services>
           </div><!-- End Service Item -->
             <div class="col-md-5 justify-content-center g-5" data-aos="fade-right" data-aos-delay="100">
-              <x-service title="Cloud Computing" icon2="cloud-check" span="learn more" >
+              <x-services title="Cloud Computing" icon2="cloud-check" span="learn more" >
                 Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-              </x-service>
+              </x-services>
           </div><!-- End Service Item -->
           <div class="col-md-5 justify-content-center g-5" data-aos="fade-right" data-aos-delay="100">
-              <x-service title="Cybersecurity Solutions" icon2="shield-lock" span="learn more" >
+              <x-services title="Cybersecurity Solutions" icon2="shield-lock" span="learn more" >
                 Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-              </x-service>
+              </x-services>
         </div>
       </div>
          
@@ -195,12 +195,12 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt diam et gravida consequat. Sed nec mauris quis lacus commodo lobortis. Suspendisse euismod commodo sem, in finibus purus bibendum et. Morbi eu neque sed velit convallis vestibulum a vel odio.
               </p>
               <div class="button-wrapper">
-                <a class="btn" href="services.html"><span>Explore All Services</span></a>
+                <a class="btn" href="service.html"><span>Explore All Services</span></a>
               </div>
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="services-list">
+            <div class="service-list">
               <x-teknologi title="Software Enginer" icon3="code-square">
                 Lorem ipsum dolor sit amet consectetur adipiscing
               </x-teknologi>

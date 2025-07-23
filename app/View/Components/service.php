@@ -2,8 +2,9 @@
 
 namespace App\View\Components;
 
+use Closure;
+use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
-use Illuminate\View\View;
 
 class service extends Component
 {
@@ -11,9 +12,6 @@ class service extends Component
     public string $icon2;
     public string $span;
 
-    /**
-     * Create a new component instance.
-     */
     public function __construct(string $title, string $icon2, string $span=null)
     {
         $this->title = $title;
@@ -26,6 +24,6 @@ class service extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.service');
+        return view('components.services');
     }
 }

@@ -25,6 +25,15 @@ Route::get('/portofolio-page', function () {
 Route::get('/starter-page', function () {
     return view('starter-page');
 });
-Route::get('/registrasi', [register_controller::class, 'showForm'])->name('register');
 
-Route::post('/registrasi', [register_controller::class, 'store'])->name('register');
+Route::get('/register', function () {
+    return view('register');
+});
+Route::get('/register', [register_controller::class, 'showForm'])->name('register.form');
+Route::post('/register', [register_controller::class, 'store'])->name('register.store');
+
+Route::get('/register/edit/{id}', [register_controller::class, 'edit'])->name('register.edit'); // EDIT
+Route::put('/register/update/{id}', [register_controller::class, 'update'])->name('register.update'); // UPDATE
+
+Route::delete('/register/delete/{id}', [register_controller::class, 'destroy'])->name('register.delete'); // DELETE
+Route::get('/register/data', [register_controller::class, 'showData'])->name('register.data'); // TABEL

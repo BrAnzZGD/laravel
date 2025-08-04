@@ -72,7 +72,8 @@
             <div class="alert alert-success">{{session('success') }}</div>
         @endif
 
-        <form action="{{ route('register') }}" method="POST" class="space-y-5">
+        <form action="{{ route('register.form') }}" method="POST" class="space-y-5">
+
             @csrf
             <div>
                 <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Nama Lengkap</label>
@@ -119,9 +120,12 @@
             </button>
         </form>
     </div>
+        <div class="text-center mt-6">
+            <a href="{{ route('register.form') }}"></a>;
 
+        </div>
     <script>
-        document.getElementById('registrationForm').addEventListener('submit', function(e) {
+        document.getElementById('registration.Form').addEventListener('submit', function(e) {
             e.preventDefault();
             let isValid = true;
             
